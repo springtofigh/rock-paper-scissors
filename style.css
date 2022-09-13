@@ -1,0 +1,124 @@
+body {
+    background: #c6ceff;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#game-area {
+    position: relative;
+    left: 0;
+    top: 20px;
+    width: 600px;
+    height: 600px;
+    background-color: #0f6bac;
+    border-radius: 10px;
+    box-shadow:0 0 20px #A162F7;
+}
+
+#player-1, #player-2  {
+    position:absolute;
+    left: 0;
+    top: 0;
+    width:50%;
+    height:80%;
+    display:flex;
+    justify-content: center;
+    place-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 40px;
+    font-family: 'alibaba';
+    border-right: 2px solid #0400ff;
+    border-bottom: 2px solid #0400ff;
+}
+
+#player-2 {
+    left: 50%;
+    border-right: none;
+}
+
+#player-name {
+    position: absolute;
+    left: 15%;
+    top: 5%;
+    border-radius: 40px;
+    width:70%;
+    height: 40px;
+    background-color: #2C3333;
+    color:#E7F6F2;
+    display:flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#game-button {
+    position: absolute;
+    top: 80%;
+    width:100%;
+    left: 0;
+    height: 20%;
+    display:flex;
+    justify-content: center;
+    place-items: center;
+}
+
+#game-button button {
+    width: 50%;
+    height: 60px;
+    border: 1px solid #fff;
+    background-color: #6f88fc;
+    color:#ffff;
+    font-family: 'alibaba';
+    font-size: 22px;
+    border-radius: 50px;
+    transition: 500ms;
+    cursor: pointer;
+}
+
+#game-button button:hover {
+    transform: translateY(-4px);
+}
+
+#player-hand {
+    position:relative;
+    left: 0;
+    top: 20px;
+    width: 200px;
+    height: 200px;
+    display:flex;
+    justify-content: center;
+    place-items: center;
+    background-color:#258bd6;
+    border-radius: 50%;
+}
+
+#player-hand img {
+    width: 130px;
+}
+
+select {
+    width: 60%;
+    height: 40px;
+    text-align: center;
+    background-color:#2C3333;
+    color:white;
+    font-family: 'alibaba';
+    border: none;
+}
+
+section .readonly {
+    pointer-events: none;
+}
+
+.main-result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'alibaba';
+    color: rgb(27, 25, 25);
+}

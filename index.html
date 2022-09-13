@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>سنگ کاغذ قیچی</title>
+</head>
+<body>
+    <div class="main-result">
+        👇👇 نتیجه بازی 👇👇
+        <div class="result"></div> 
+    </div>
+    <div class="container">
+        <div id="game-area">
+        <div id="player-1">
+            <div id="player-name">شما</div>
+            <div id="player-hand">
+                <img src="images/hand_1.png" alt="">
+            </div>
+            <select id="your-choice">
+                <option value="" selected hidden>انتخاب شما</option>
+                <option value="1">سنگ</option>
+                <option value="2">قیچی</option>
+                <option value="3">کاغذ</option>
+            </select>
+        </div>
+            <div id="player-2">
+            <div id="player-name">ربات</div>
+            <div id="player-hand">
+                <img src="images/hand_1.png" alt="">
+            </div>
+            <select class="readonly">
+                <option value="" >انتخاب خودکار</option>
+            </select>
+        </div>
+        <div id="game-button">
+            <button>شروع بازی</button>
+        </div>
+        </div>
+</div>
+</body>
+</html>
+<script src="main.js"></script>
