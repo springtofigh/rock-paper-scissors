@@ -1,3 +1,10 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'alibaba';
+}
+
 body {
     background: #c6ceff;
 }
@@ -31,7 +38,6 @@ body {
     flex-wrap: wrap;
     flex-direction: column;
     gap: 40px;
-    font-family: 'alibaba';
     border-right: 2px solid #0400ff;
     border-bottom: 2px solid #0400ff;
 }
@@ -72,7 +78,6 @@ body {
     border: 1px solid #fff;
     background-color: #6f88fc;
     color:#ffff;
-    font-family: 'alibaba';
     font-size: 22px;
     border-radius: 50px;
     transition: 500ms;
@@ -106,7 +111,6 @@ select {
     text-align: center;
     background-color:#2C3333;
     color:white;
-    font-family: 'alibaba';
     border: none;
 }
 

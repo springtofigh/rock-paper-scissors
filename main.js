@@ -25,8 +25,8 @@ buttonSelect.addEventListener("click" , function() {
   }
 })
 
-if (userChoice.value !== false) {
-alert("لطفا یک گزینه انتخاب کنید");
+if (userChoice.value !== false ) {
+alert("راهنمای بازی:  لطفا در شروع هر مرحله یک گزینه انتخاب کنید");
 }
 
 function endGame() {
