@@ -1,11 +1,7 @@
 /* FONT */
 @font-face {
-	font-family: Shabnam;
-    src: url('./font/Shabnam/Shabnam.eot');
-    src: url('../font/Shabnam/Shabnam.eot?#iefix') format('embedded-opentype'),
-       url('../font/Shabnam/Shabnam.woff2') format('woff2'),
-       url('../font/Shabnam/Shabnam.woff') format('woff'),
-       url('../font/Shabnam/Shabnam.ttf') format('truetype');
+	font-family: Alibaba;
+    src: url('./font/Alibaba/Alibaba-Bold.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,7 +10,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Shabnam';
+    font-family: 'Alibaba';
 }
 
 body {
